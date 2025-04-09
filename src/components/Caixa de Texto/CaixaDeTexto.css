@@ -1,15 +1,17 @@
 .Caixa_Texto {
-    width: 800px;
-    height: 82px;
+    width: 700px;
+    height: 62px;
     padding: 10px;
     border-radius: 15px;
-    font-size: 40px;
+    border: none;
+    font-size: 30px;
     color: white;
     background-color: #0B8185;
     outline: none;
+    padding-left: 25px;
 }
 
 .Caixa_Texto::placeholder {
     color: white;
-    font-size: 40px;
+    font-size: 30px;
 }

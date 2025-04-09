@@ -3,7 +3,7 @@ import './Senha.css'
 
 const Senha = (props) => {
   return (
-    <input type="password" name="senha" id="senha" placeholder={props.children} />
+    <input type="password" name="senha" id="senha" placeholder={props.children} className='Senha'/>
   )
 }
 

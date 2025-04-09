@@ -1,14 +1,17 @@
-input {
-    width: 800px;
-    height: 82px;
+.Senha {
+    width: 700px;
+    height: 62px;
     padding: 10px;
+    border: none;
     border-radius: 15px;
-    font-size: 40px;
+    font-size: 30px;
     color: white;
     background-color: #0B8185;
+    outline: none;
+    padding-left: 25px;
 }
 
-input::placeholder {
+.Senha::placeholder {
     color: white;
-    font-size: 40px;
+    font-size: 30px;
 }

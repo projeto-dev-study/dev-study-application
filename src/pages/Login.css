@@ -5,3 +5,8 @@
     justify-content: center;
     gap: 20px;
 }
+
+.Logo {
+    width: 60%;
+    height: 200px;
+}
