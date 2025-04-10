@@ -1,9 +1,19 @@
 import React from 'react'
 import './CaixaDeTexto.css'
 
-const CaixaDeTexto = (props) => {
+const CaixaDeTexto = ({tipo, value, onChange}) => {
+  let placeholder = ''
+
+  if (tipo === 'email') placeholder = 'E-MAIL';
+  if (tipo === 'nome') placeholder = 'NOME';
+
   return (
-    <input type="text" placeholder={props.children} className='Caixa_Texto' />
+    <input 
+    type="text" 
+    placeholder={placeholder} 
+    value={value} 
+    onChange={onChange} 
+    className='Caixa_Texto' />
   )
 }
 
