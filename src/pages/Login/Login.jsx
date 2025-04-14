@@ -15,7 +15,9 @@ const LoginForm = () => {
       <CaixaDeTexto tipo={"email"} value={user.email} onChange={(e) =>
         setUser((prevUser) => ({ ...prevUser, email: e.target.value }))
       } />
-      <Senha>SENHA</Senha>
+      <Senha value={user.senha} onChange={(e) =>
+        setUser((prevUser) => ({ ...prevUser, senha: e.target.value }))
+      }/>
       <Botao>Entrar</Botao>
       <Botao>Cadastrar</Botao>
     </div>

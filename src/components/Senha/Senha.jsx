@@ -1,9 +1,13 @@
 import React from 'react'
 import './Senha.css'
 
-const Senha = (props) => {
+const Senha = ({value, onChange}) => {
   return (
-    <input type="password" name="senha" id="senha" placeholder={props.children} className='Senha'/>
+    <input type="password" 
+    placeholder="SENHA"
+    value={value}
+    onChange={onChange}
+    className='Senha'/>
   )
 }
 
