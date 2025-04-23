@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    width: 90%;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.Logo {
+    width: 150px;
+    height: 90px;
+}
+
+.cumprimento {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 50px;
+    gap: 30px;
+    margin-left: 250px;
+}
+
+.Perfil {
+    width: 200px;
+    height: 200px;
+}
+
+.cumprimento h1 {
+    font-size: 100px;
+    font-weight: 400;
+}
+
+.boxtext {
+    display: flex;
+    justify-content: right;
+    gap: 30px;
+    width: 800px;
+    color: black;
+    font-size: 30px;
+    margin-left: 550px;
+}
+
+.text {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: right;
+    justify-content: right;
+    padding: 30px;
+    background-color: white;
+    font-weight: 400;
+    border-radius: 15px;
+    text-align: justify;
+}
