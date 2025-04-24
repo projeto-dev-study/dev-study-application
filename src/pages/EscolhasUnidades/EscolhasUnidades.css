@@ -1,13 +1,52 @@
 h1 {
     margin-top: 100px;
-    font-size: 90px;
+    font-size: 150px;
+    color: white;
+    font-weight: 90;
     text-align: center;
 }
 
 .botoes{
+    padding-top: 100px;
     align-items: center;
     display: flex;
     flex-direction: column;
     margin-top: 15px;
-    gap: 20px;
+    gap: 50px;
+}
+
+.unidadeI{
+    background-color: #1F5F61;
+    color: white;
+    border-radius: 15px;
+    width: 800px;
+    height: 166px;
+    font-size: 55px;
+    border: none;
+    cursor: pointer;
+    font-size: 150px;
+}
+
+.unidadeII{
+    background-color: #1F5F61;
+    color: white;
+    border-radius: 15px;
+    width: 800px;
+    height: 166px;
+    font-size: 55px;
+    border: none;
+    cursor: pointer;
+    font-size: 150px;
+}
+
+.unidadeIII{
+    background-color: #1F5F61;
+    color: white;
+    border-radius: 15px;
+    width: 800px;
+    height: 166px;
+    font-size: 55px;
+    border: none;
+    cursor: pointer;
+    font-size: 150px;
 }

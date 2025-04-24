@@ -15,7 +15,7 @@ const Apresentation = () => {
         <div className="boxtext">
             <div className="text">Este é um jogo desafiador e educativo onde você pode testar seus conhecimentos em tópicos de programação de forma divertida. Aqui você responderá a perguntas de múltipla escolha sobre conceitos, linguagens e melhores práticas de desenvolvimento. Vamos ver se você é um especialista ou precisa aprimorar suas habilidades!</div>
         </div>
-        <p>Pronto para provar seu conhecimento?</p>
+        <p className="ptext">Pronto para provar seu conhecimento?</p>
         <div className="acao">
             <Botao>Começar</Botao>
         </div>

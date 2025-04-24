@@ -13,9 +13,9 @@ const FirstComponent = () => {
             </div>
 
             <div className='botoes'>
-                <Botao > I      </Botao>
-                <Botao> II </Botao>
-                <Botao> III </Botao>
+                <button className="unidadeI"> I </button>
+                <button className="unidadeII"> II </button>
+                <button className="unidadeIII"> III </button>
             </div>
 
         </div>
