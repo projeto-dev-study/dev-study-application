@@ -1,0 +1,13 @@
+h1 {
+    margin-top: 100px;
+    font-size: 90px;
+    text-align: center;
+}
+
+.botoes{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    gap: 20px;
+}
