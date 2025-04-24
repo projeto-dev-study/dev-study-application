@@ -15,7 +15,7 @@
 }
 
 .Logo {
-    width: 150px;
+    width: 100px;
     height: 90px;
 }
 
@@ -58,4 +58,9 @@
     font-weight: 400;
     border-radius: 15px;
     text-align: justify;
+}
+h1 {
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 100px;
 }
