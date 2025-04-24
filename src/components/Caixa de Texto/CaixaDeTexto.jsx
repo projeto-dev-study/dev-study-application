@@ -4,6 +4,7 @@ import './CaixaDeTexto.css'
 const CaixaDeTexto = ({tipo, value, onChange}) => {
   let placeholder = ''
 
+  
   if (tipo === 'email') placeholder = 'E-MAIL';
   if (tipo === 'nome') placeholder = 'NOME';
 
