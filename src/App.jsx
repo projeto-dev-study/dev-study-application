@@ -5,7 +5,6 @@ import EscolhasUnidades from './pages/EscolhasUnidades/EscolhasUnidades'
 import Register from './pages/Register/Register'
 import ResultCongratulation from './pages/ResultCongratulations/ResultCongratulation'
 import ApresentationATV from './pages/ApresentationATV/ApresentationATV'
-import ResultCongratulation from './pages/ResultCongratulations/ResultCongratulation'
 import ResultInsufficient from './pages/ResultInsufficient/ResultInsufficient'
 
 function App() {
