@@ -11,7 +11,7 @@ const ResultInsufficient = () => {
                 <h1 className='insufficient'>Que pena</h1>
                 <img src="src\assets\icone-sad.svg" alt="icone sad" className='icone-sad' />
                 <h2 className='acertos'>Você errou todas</h2>
-                <Botao>Repetir</Botao>
+                <Botao className='botao-repetir'>Repetir</Botao>
             </div>
             
         </div>

@@ -11,15 +11,15 @@ const LoginForm = () => {
 
   return (
     <div className='Login'>
-      <img src="src\assets\logo-dev.svg" alt="logo dev" className='Logo' />
+      <img src="src\assets\logo-dev.svg" alt="logo dev" className='logo-login' />
       <CaixaDeTexto tipo={"email"} value={user.email} onChange={(e) =>
         setUser((prevUser) => ({ ...prevUser, email: e.target.value }))
       } />
       <Senha value={user.senha} onChange={(e) =>
         setUser((prevUser) => ({ ...prevUser, senha: e.target.value }))
       }/>
-      <Botao>Entrar</Botao>
-      <Botao>Cadastrar</Botao>
+      <Botao className='botao-entrar-login'>Entrar</Botao>
+      <Botao className='botao-cadastrar-login'>Cadastrar</Botao>
     </div>
   )
 }
