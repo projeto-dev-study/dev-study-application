@@ -6,6 +6,7 @@ import Register from './pages/Register/Register'
 import ResultCongratulation from './pages/ResultCongratulations/ResultCongratulation'
 import ApresentationATV from './pages/ApresentationATV/ApresentationATV'
 import ResultInsufficient from './pages/ResultInsufficient/ResultInsufficient'
+import Home from './pages/Home/Home'
 
 function App() {
 
