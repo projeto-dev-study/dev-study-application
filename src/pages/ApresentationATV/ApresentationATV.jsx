@@ -8,7 +8,7 @@ const ApresentationATV = () => {
                 <button className='action'>
                     <img src="src\assets\botaovoltar.svg" alt="voltar" className='voltar' />
                 </button>
-                <img src="src\assets\logo-dev.svg" alt="logo dev" className='logo' />
+                <img src="src\assets\logo-dev.svg" alt="logo dev" className='logo-apresentation-atv' />
                 <div></div>
             </div>
             <div className="title">Evolução da Web</div>
@@ -27,7 +27,7 @@ const ApresentationATV = () => {
                     Boa sorte!</span>
             </div>
             <div className="acao">
-                <button className='botao'>Iniciar Quiz</button>
+                <button className='botao-iniciar-quiz'>Iniciar Quiz</button>
             </div>
 
         </div>

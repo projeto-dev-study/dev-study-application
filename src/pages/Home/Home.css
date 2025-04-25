@@ -13,10 +13,11 @@
 }
 
 .mapa {
-    margin-left: 100px;
+    margin-left: 70px;
     width: 80px;
     height: 80px;
     cursor: pointer;
+    margin-right: 40px;
 }
 
 .titlehome {
@@ -24,6 +25,8 @@
     padding: 15px 150px 15px 150px;
     border-radius: 15px;
     margin: 50px 30px 30px 30px;
+    color: white;
+    font-size: 35px;
 }
 
 .space {

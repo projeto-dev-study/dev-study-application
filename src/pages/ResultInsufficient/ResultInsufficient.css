@@ -9,6 +9,7 @@
 }
 
 .Logo {
+    margin-top: 20px;
     width: 250px;  
     height: 100px;  
    
@@ -40,12 +41,12 @@
     background-color: white;
 }
 .botao-repetir{
-    margin-top: 40px;
-    font-size: 40px;
+    margin-top: 20px;
+    font-size: 35px;
     font-weight: 400;
-    border-radius: 0;
-    width: 180px;
-    height: 50px;
+    border-radius: 10;
+    width: 200px;
+    height: 40px;
 
 }
 .box{

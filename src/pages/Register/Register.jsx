@@ -11,7 +11,7 @@ const RegisterForm = () => {
 
   return (
     <div className='Register'>
-      <img src="src\assets\logo-dev.svg" alt="logo dev" className='Logo' />
+      <img src="src\assets\logo-dev.svg" alt="logo dev" className='logo-tela-cadastro' />
       <CaixaDeTexto tipo={"nome"} value={user.name} onChange={(e) =>
         setUser((prevUser) => ({...prevUser, name: e.target.value }))
       }/>
@@ -21,7 +21,7 @@ const RegisterForm = () => {
       <Senha value={user.senha} onChange={(e) =>
         setUser((prevUser) => ({ ...prevUser, senha: e.target.value }))
       }/>
-      <Botao>Cadastrar</Botao>
+      <Botao className='botao-cadastrar'>Cadastrar</Botao>
     </div>
   )
 }

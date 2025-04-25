@@ -3,62 +3,65 @@
     flex-direction: column;
     color: white;
 }
+.logo-apresentation {
+    width: 250px;
+    height: 100px;
+    margin-top: 50px;
 
-.cabecalho {
-    display: flex;           
-    justify-content: center; 
-    width: 260px;            
-    height: 100px;           
-    margin: 0 auto;          
 }
 
-.cumprimento {
+.foto-perfil {
     display: flex;
-    justify-content: left;
-    align-items: center;
-    margin-top: 150px;
+    flex-direction: row;
+    margin-top: 10px;
     gap: 30px;
-    margin-left: 250px;
+    align-items: center;
+    margin-right: 600px;
+ 
 }
 
-.cumprimento h1 {
-    font-size: 100px;
+.cumprimento{
+    font-size: 90px;
     font-weight: 40;
+    margin-top: 10px;
+    margin-right: 600px;
 }
 
 .boxtext {
-    display: flex;
-    flex-direction: column;
-    justify-content: right;
-    gap: 30px;
+    background-color: white;     
+    padding: 20px;                
+    border-radius: 15px;          
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);            
+    width: 600px;      
+    height: 280px;           
+    max-width: 80%;
     color: black;
     font-size: 30px;
-    margin-top: 20px;
-    margin-left: 200px;
-    margin-right: 100px;
+    margin-left: 400px;
+    margin-top: -300px;
+  
 }
 
-.text {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: right;
-    justify-content: right;
-    padding: 30px;
-    background-color: white;
+.text-perfil {
+    margin-top: 5px;
     font-weight: 400;
-    border-radius: 15px;
     text-align: justify;
+    background-color: white;
 }
 
-p{
+.frase-conhecimento{
     font-size: 32px;
     display: flex;
-    padding-top: 150px;
+    padding-top: 30px;
     justify-content: center;
+    
 }
 
-.acao{
+.botao-comecar{
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 30px;
+    width: 200px;
+    height: 35px;
+    border-radius: 10px;
 }
