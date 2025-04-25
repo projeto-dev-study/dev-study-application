@@ -8,16 +8,12 @@
 
 .cab {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 
 .mapa {
-<<<<<<< HEAD
     margin-left: 70px;
-=======
-    margin-left: 0px;
->>>>>>> 8a74d3665e39da2a5efa4dba4ed8320b91643f7d
     width: 80px;
     height: 80px;
     cursor: pointer;
@@ -29,17 +25,12 @@
     padding: 15px 150px 15px 150px;
     border-radius: 15px;
     margin: 50px 30px 30px 30px;
-<<<<<<< HEAD
     color: white;
     font-size: 35px;
-=======
-    font-size: 65px;
-    color: white;
->>>>>>> 8a74d3665e39da2a5efa4dba4ed8320b91643f7d
 }
 
 .space {
-    margin-left: 10px;
+    margin-left: 200px;
 }
 
 .atividades1, .atividades2 {
