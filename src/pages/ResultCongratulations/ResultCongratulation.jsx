@@ -9,7 +9,7 @@ const ResultCongratulation = () => {
             <h1 className='resultado'>Resultado</h1>
             <div className="box">
                 <h1 className='parabens'>Párabens</h1>
-                <img src="src\assets\icone-resultado.svg" alt="icone resultado" className='icone-resultado' />
+                <img src='src\assets\resultados\parabens.svg' alt="icone resultado" className='icone-resultado' />
                 <h2 className='acertos'>Você acertou 3/5</h2>
                 <Botao className='botao-avancar-resultado'>Avançar</Botao>
             </div>

@@ -12,7 +12,9 @@ function App() {
 
   return (
     <div className="App">
-      <ResultInsufficient/>
+      <Home/>
+      {/* <ApresentationATV/> */}
+      {/* <ResultInsufficient/> */}
     </div>
   )
 }
