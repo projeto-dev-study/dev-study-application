@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className="App">
-      <ResultInsufficient/>
+      <Login/>
     </div>
   )
 }
