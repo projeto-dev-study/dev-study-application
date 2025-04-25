@@ -9,7 +9,7 @@ const ResultInsufficient = () => {
             <h1 className='resultado'>Resultado</h1>
             <div className="box">
                 <h1 className='insufficient'>Que pena</h1>
-                <img src="src\assets\icone-sad.svg" alt="icone sad" className='icone-sad' />
+                <img src="src\assets\resultados\reprovado.svg" alt="icone sad" className='icone-sad' />
                 <h2 className='acertos'>Você errou todas</h2>
                 <Botao>Repetir</Botao>
             </div>
