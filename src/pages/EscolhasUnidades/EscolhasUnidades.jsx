@@ -1,6 +1,5 @@
 import React from 'react';
 import './EscolhasUnidades.css';
-import Botao from '../../components/Botoes/Botao';
 import { useNavigate } from 'react-router-dom'; 
 
 const FirstComponent = () => {
@@ -10,9 +9,9 @@ const FirstComponent = () => {
         if (unit === 'I') {
             navigate('/home'); 
         } else if (unit === 'II') {
-            navigate('/home'); 
+            navigate('/homeII'); 
         } else if (unit === 'III') {
-            navigate('/home');
+            navigate('/homeIII');
         }
     };
 
