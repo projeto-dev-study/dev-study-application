@@ -14,11 +14,6 @@ import Navigation from './components/Navigation/Navigation'
 function App() {
 
   return (
-<<<<<<< HEAD
-    <div className="App">
-      <Login/>
-    </div>
-=======
     <Router>
       <Navigation />
       <Routes>
@@ -33,7 +28,6 @@ function App() {
         <Route path="/resultinsufficient" element={<ResultInsufficient />} />
       </Routes>
     </Router>
->>>>>>> dev
   )
 }
 
