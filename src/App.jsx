@@ -12,11 +12,11 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Navigation from './components/Navigation/Navigation'
 
 function App() {
-
   return (
-    <Router>
+    <Router> {/* O Router envolve as rotas */}
       <Navigation />
       <Routes>
+        <Route path="/" element={<Login />} /> {/* Página inicial é o Login */}
         <Route path="/login" element={<Login />} />
         <Route path="/apresentation" element={<Apresentation />} />
         <Route path="/register" element={<Register />} />
@@ -28,7 +28,7 @@ function App() {
         <Route path="/resultinsufficient" element={<ResultInsufficient />} />
       </Routes>
     </Router>
-  )
+  );
 }
 
-export default App
+export default App;

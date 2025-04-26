@@ -11,9 +11,10 @@ const LoginForm = () => {
   const navigate = useNavigate();
 
   const handleLogin = (choice) => {
-    if (choice === 'entrar') {
-      navigate('/Apresentation');
-    } else if (choice === 'cadastrar') {
+    console.log("Escolha: ", choice)
+    if (choice === 'Entrar') {
+      navigate('/apresentation');
+    } else if (choice === 'Cadastrar') {
       navigate('/register'); 
     }
   }
@@ -27,9 +28,9 @@ const LoginForm = () => {
         setUser((prevUser) => ({ ...prevUser, senha: e.target.value }))
       }/>
       <Botao className='botao-entrar-login' onClick={() =>
-        handleLogin('entrar')
+        handleLogin('Entrar')
       }>Entrar</Botao>
-      <Botao className='botao-cadastrar-login' onClick ={() => handleLogin('cadastrar')}>Cadastrar</Botao>
+      <Botao className='botao-cadastrar-login' onClick ={() => handleLogin('Cadastrar')}>Cadastrar</Botao>
     </div>
   )
 }
