@@ -7,13 +7,33 @@ import ResultCongratulation from './pages/ResultCongratulations/ResultCongratula
 import ApresentationATV from './pages/ApresentationATV/ApresentationATV'
 import ResultInsufficient from './pages/ResultInsufficient/ResultInsufficient'
 import Home from './pages/Home/Home'
+import Quiz from './pages/Quiz/Quiz'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import Navigation from './components/Navigation/Navigation'
 
 function App() {
 
   return (
+<<<<<<< HEAD
     <div className="App">
       <Login/>
     </div>
+=======
+    <Router>
+      <Navigation />
+      <Routes>
+        <Route path="/login" element={<Login />} />
+        <Route path="/apresentation" element={<Apresentation />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/quiz" element={<Quiz />} />
+        <Route path="/escolhasunidades" element={<EscolhasUnidades />} />
+        <Route path="/apresentationatv" element={<ApresentationATV />} />
+        <Route path="/resultcongratulation" element={<ResultCongratulation />} />
+        <Route path="/resultinsufficient" element={<ResultInsufficient />} />
+      </Routes>
+    </Router>
+>>>>>>> dev
   )
 }
 

@@ -11,6 +11,12 @@
     height: 40px;
     font-size: 35px;
     border-radius: 10;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.botao-cadastrar:hover {
+    background-color: gray;
+    color: white;
 }
 .logo-tela-cadastro {
     margin-top: 150px;

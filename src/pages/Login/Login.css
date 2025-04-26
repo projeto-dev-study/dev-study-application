@@ -20,12 +20,23 @@
     height: 40px;
     font-size: 35px;
     border-radius: 10;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
 
+}
+.botao-entrar-login:hover {
+    background-color: gray;
+    color: white;
 }
 .botao-cadastrar-login {
     width: 200px;
     height: 40px;
     font-size: 35px;
     border-radius: 10;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
 }
-
+.botao-cadastrar-login:hover {
+    background-color: gray;
+    color: white;
+}
