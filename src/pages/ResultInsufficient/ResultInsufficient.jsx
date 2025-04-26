@@ -5,6 +5,9 @@ import Botao from '../../components/Botoes/Botao';
 const ResultInsufficient = () => {
     return (
         <div className='image-container'>
+            <button className='voltar-quiz'>
+                    <img src="src\assets\botaovoltar.svg" alt="voltar" className='seta-voltar-quiz'/>
+                </button>
             <img src="src\assets\logo-dev.svg" alt="logo dev" className='Logo' />
             <h1 className='resultado'>Resultado</h1>
             <div className="box">

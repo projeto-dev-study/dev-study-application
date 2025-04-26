@@ -4,6 +4,9 @@ import './Home.css'
 const Home = () => {
   return (
     <div className='containerhome'>
+      <button className='voltar-quiz'>
+                    <img src="src\assets\botaovoltar.svg" alt="voltar" className='seta-voltar-quiz'/>
+                </button>
       <div className="cab">
         <div className='space'></div>
         <div className="titlehome">Unidade I</div>
