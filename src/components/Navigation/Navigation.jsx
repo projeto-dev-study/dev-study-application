@@ -19,6 +19,12 @@ function Navigation() {
             <Link to="/home">Home</Link>
             </li>
             <li>
+            <Link to="/homeii">HomeII</Link>
+            </li>
+            <li>
+            <Link to="/homeiii">HomeIII</Link>
+            </li>
+            <li>
             <Link to="/quiz">Quiz</Link>
             </li>
             <li>
