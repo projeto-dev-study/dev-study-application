@@ -9,7 +9,7 @@ const Home = () => {
   const navigate = useNavigate();
 
   const handleButtonClick = (level) => {
-    navigate(`/quiz`, { state: { level } });
+    navigate(`/apresentationatv`, { state: { level } });
   }
 
   return (

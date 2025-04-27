@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './Quiz.css';
-import Botao from '../../components/Botoes/Botao';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { usePhase } from '../../contexts/PhaseContext';
 import questions from '../../data/questions';
@@ -11,7 +10,7 @@ const Quiz = () => {
     const navigate = useNavigate();
     
     const levelFromState = location.state?.level;
-    const level = levelFromState !== undefined ? levelFromState + 1 : 1;
+    const level = levelFromState !== undefined ? levelFromState : 0;
     
     if (!questions[level]) {
         console.error("Nível inválido:", {

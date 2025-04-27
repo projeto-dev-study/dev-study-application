@@ -1,5 +1,5 @@
 const questions = [
-    // Nível 0 (Unidade I)
+    
     [
         {
             question: "Qual é a linguagem de programação mais utilizada para desenvolvimento web?",
@@ -21,7 +21,7 @@ const questions = [
         }
     ],
     
-    // Nível 1 (Unidade II)
+
     [
         {
             question: "Qual tag HTML é usada para criar um parágrafo?",
@@ -43,7 +43,7 @@ const questions = [
         }
     ],
 
-    // Nível 2 (Unidade III)
+    
     [
         {
             question: "Qual propriedade CSS é usada para alterar a cor do texto?",
@@ -65,7 +65,7 @@ const questions = [
         }
     ],
 
-    // Nível 3 (Unidade IV)
+    
     [
         {
             question: "O que o comando 'git init' faz?",
@@ -87,7 +87,7 @@ const questions = [
         }
     ],
 
-    // Nível 4 (Unidade V)
+    
     [
         {
             question: "O que significa a sigla CSS?",
