@@ -7,9 +7,10 @@
     margin: 0px;
     width: 90%;
     padding: 0px;
+    margin-left: 60px;
 }
 
-.logo-login {
+.logo-login { 
     margin-top: 150px;
     width: 300px;
     height: 100px;
