@@ -7,12 +7,14 @@
 }
 
 .botao-cadastrar {
-    width: 200px;
-    height: 40px;
-    font-size: 35px;
-    border-radius: 10;
+    background-color: #1F5F61;
+    color: white;
+    border-radius: 15px;
+    width: 300px;
+    height: 66px;
+    font-size: 55px;
+    border: none;
     cursor: pointer;
-    transition: background-color 0.3s ease, color 0.3s ease;
 }
 .botao-cadastrar:hover {
     background-color: gray;
