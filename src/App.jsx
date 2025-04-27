@@ -7,8 +7,8 @@ import ResultCongratulation from './pages/ResultCongratulations/ResultCongratula
 import ApresentationATV from './pages/ApresentationATV/ApresentationATV'
 import ResultInsufficient from './pages/ResultInsufficient/ResultInsufficient'
 import Home from './pages/Home/home'
-import HomeII from './pages/HomeII/HomeII.jsx'
-import HomeIII from './pages/HomeIII/HomeIII.jsx'
+import HomeII from './pages/HomeII/HomeII'
+import HomeIII from './pages/HomeIII/HomeIII'
 import Quiz from './pages/Quiz/Quiz'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Navigation from './components/Navigation/Navigation'
@@ -20,7 +20,7 @@ function App() {
       <Navigation />
       <Routes>
         <Route path="/login" element={<Login />} />
-        <Route path="/apresentation" element={<Apresentation/>} />
+        <Route path="/apresentation" element={<Apresentation />} />
         <Route path="/register" element={<Register />} />
         <Route path="/home" element={<Home />} />
         <Route path="/homeii" element={<HomeII />} />
