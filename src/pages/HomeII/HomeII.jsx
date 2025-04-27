@@ -12,7 +12,7 @@ const HomeII = () => {
         <div className='space'></div>
         <div className="titlehome">Unidade II</div>
         <div className="map">
-            <img src="src\assets\unidadeI\mapa.svg" alt="mapa" className='mapa' onClick={() => navigate(-1)}/>
+            <img src="src\assets\unidadeI\mapa.svg" alt="mapa" className='mapa' onClick={() => navigate("/escolhasunidades")}/>
         </div>
       </div>
       <div className="atividades1">

@@ -25,7 +25,7 @@ const ApresentationATV = () => {
 
   return (
     <div className="container">
-      <button className="voltar-quiz" onClick={() => navigate(-1)}>
+      <button className="voltar-quiz" onClick={() => navigate("/home")}>
         <img
           src="/assets/botaovoltar.svg"
           alt="voltar"

@@ -18,7 +18,7 @@ const FirstComponent = () => {
     return (
         <div>
         
-            <button className='voltar-quiz' onClick={() => navigate(-1)}>
+            <button className='voltar-quiz' onClick={() => navigate("/apresentation")}>
                 <img src="src/assets/botaovoltar.svg" alt="voltar" className='seta-voltar-quiz'/>
             </button>
 
