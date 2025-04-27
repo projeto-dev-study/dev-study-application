@@ -99,3 +99,26 @@
 .seta-voltar-quiz:hover {
     filter: invert(100%) sepia(100%) hue-rotate(180deg);
 }
+
+/* Feedback visual */
+.correct {
+    background-color: #4CAF50 !important;
+    color: white !important;
+    border: 2px solid #2E7D32 !important;
+}
+
+.incorrect {
+    background-color: #f44336 !important;
+    color: white !important;
+    border: 2px solid #c62828 !important;
+}
+
+.selected:not(.correct):not(.incorrect) {
+    background-color: #2196F3 !important;
+    color: white !important;
+}
+
+/* Transição suave */
+.resposta-quiz {
+    transition: all 0.3s ease;
+}
