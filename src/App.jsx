@@ -12,11 +12,13 @@ import HomeIII from './pages/HomeIII/HomeIII.jsx'
 import Quiz from './pages/Quiz/Quiz'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Navigation from './components/Navigation/Navigation'
+import { PhaseProvider } from './contexts/PhaseContext.jsx'
 
 function App() {
 
   return (
-    <Router>
+    <PhaseProvider>
+      <Router>
       <Navigation />
       <Routes>
         <Route path="/login" element={<Login />} />
@@ -32,6 +34,7 @@ function App() {
         <Route path="/resultinsufficient" element={<ResultInsufficient />} />
       </Routes>
     </Router>
+    </PhaseProvider>
   )
 }
 

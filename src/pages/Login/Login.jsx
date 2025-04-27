@@ -4,6 +4,7 @@ import Senha from '../../components/Senha/Senha'
 import './Login.css'
 import Botao from '../../components/Botoes/Botao'
 import { useNavigate } from 'react-router-dom'; 
+import { Link } from 'react-router-dom'
   
 
 const Login = () => {
@@ -24,7 +25,7 @@ const Login = () => {
         <CaixaDeTexto tipo="email" placeholder="E-mail" onChange={(e) => setUsername(e.target.value)}/>
         <Senha tipo="password" placeholder="Senha" onChange={(e) => setPassword(e.target.value)}/>
         
-        <Botao className='botao-entrar-login' onClick = {() => {navigate("apresentation")}}>Entrar</Botao>
+        <Botao className='botao-entrar-login'><Link to="/register">Entrar</Link></Botao>
         <Botao className='botao-cadastrar-login' onClick = {() => {navigate("register")}}>Cadastrar</Botao>
       </form>
     </div>
