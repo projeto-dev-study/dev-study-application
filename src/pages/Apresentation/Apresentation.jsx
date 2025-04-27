@@ -6,11 +6,11 @@ const Apresentation = () => {
   return (
     <div className='container'>
      <button className='voltar-quiz'>
-                    <img src="src\assets\botaovoltar.svg" alt="voltar" className='seta-voltar-quiz'/>
+                    <img src="src/assets/botaovoltar.svg" alt="voltar" className='seta-voltar-quiz'/>
                 </button>
-            <img src="src\assets\logo-dev.svg" alt="logo dev" className='logo-apresentation'/>
+            <img src="src/assets/logo-dev.svg" alt="logo dev" className='logo-apresentation'/>
         <div className="foto-perfil">
-            <img src="src\assets\perfil.svg" alt="Perfil"/>
+            <img src="src/assets/perfil.svg" alt="Perfil"/>
         </div>
         <h1 className='cumprimento'>Olá, Dev!</h1>
         <div className="boxtext">

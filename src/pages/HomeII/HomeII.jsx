@@ -1,7 +1,7 @@
 import React from 'react'
 import './HomeII.css'
 
-const Home = () => {
+const HomeII = () => {
   return (
     <div className='containerhome'>
       <button className='voltar-quiz'>
@@ -43,4 +43,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default HomeII

@@ -10,25 +10,24 @@ const LoginForm = () => {
   const {user, setUser} = useUser()
   const navigate = useNavigate();
 
-  const handleLogin = (choice) => {
-    if (choice === 'entrar') {
-      navigate('/Apresentation');
-    } else if (choice === 'cadastrar') {
+  const handleLogin = (unit) => {
+    if (unit === 'entrar') {
+      navigate('/apresentation');
+    } else if (unit === 'cadastrar') {
       navigate('/register'); 
     }
   }
   return (
     <div className='Login'>
-      <img src="src\assets\logo-dev.svg" alt="logo dev" className='logo-login' />
+      <img src="src/assets/logo-dev.svg" alt="logo dev" className='logo-login' />
       <CaixaDeTexto tipo={"email"} value={user.email} onChange={(e) =>
         setUser((prevUser) => ({ ...prevUser, email: e.target.value }))
       } />
       <Senha value={user.senha} onChange={(e) =>
         setUser((prevUser) => ({ ...prevUser, senha: e.target.value }))
       }/>
-      <Botao className='botao-entrar-login' onClick={() =>
-        handleLogin('entrar')
-      }>Entrar</Botao>
+      
+      <Botao className='botao-entrar-login' onClick={() => handleLogin('entrar')}>Entrar</Botao>
       <Botao className='botao-cadastrar-login' onClick ={() => handleLogin('cadastrar')}>Cadastrar</Botao>
     </div>
   )
@@ -42,4 +41,4 @@ function Login() {
   );
 }
 
-export default Login
+export default Login;
