@@ -3,17 +3,16 @@ import "./ApresentationATV.css";
 import { useNavigate } from "react-router-dom";
 
 const ApresentationATV = () => {
-
-    const navigate = useNavigate()
+  const navigate = useNavigate();
 
   return (
     <div className="container">
-      
-      <button className="voltar-quiz" onClick={() => navigate(-1)}>
+      <button className="voltar-quiz">
         <img
-          src="src/assets/botaovoltar.svg"
+          src="src\assets\botaovoltar.svg"
           alt="voltar"
           className="seta-voltar-quiz"
+          onClick={() => navigate(-1)}
         />
       </button>
 

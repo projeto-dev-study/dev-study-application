@@ -1,17 +1,18 @@
 import React from 'react'
 import './HomeII.css'
+import { useNavigate } from 'react-router-dom'
 
 const HomeII = () => {
+
+  const navigate = useNavigate()
+
   return (
     <div className='containerhome'>
-      <button className='voltar-quiz'>
-                    <img src="src\assets\botaovoltar.svg" alt="voltar" className='seta-voltar-quiz'/>
-                </button>
       <div className="cab">
         <div className='space'></div>
         <div className="titlehome">Unidade II</div>
         <div className="map">
-            <img src="src\assets\unidadeI\mapa.svg" alt="mapa" className='mapa' />
+            <img src="src\assets\unidadeI\mapa.svg" alt="mapa" className='mapa' onClick={() => navigate(-1)}/>
         </div>
       </div>
       <div className="atividades1">

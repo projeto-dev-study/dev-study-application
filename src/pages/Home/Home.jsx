@@ -14,14 +14,12 @@ const Home = () => {
 
   return (
     <div className='containerhome'>
-      <button className='voltar-quiz'>
-        <img src="src\assets\botaovoltar.svg" alt="voltar" className='seta-voltar-quiz' />
-      </button>
+      
       <div className="cab">
         <div className='space'></div>
         <div className="titlehome">Unidade I</div>
         <div className="map">
-          <img src="src\assets\unidadeI\mapa.svg" alt="mapa" className='mapa' />
+          <img src="src\assets\unidadeI\mapa.svg" alt="mapa" className='mapa' onClick={() => navigate("/escolhasunidades")} />
         </div>
       </div>
       <div className="atividades1">

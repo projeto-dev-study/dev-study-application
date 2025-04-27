@@ -2,7 +2,6 @@ import React from "react";
 import CaixaDeTexto from "../../components/Caixa de Texto/CaixaDeTexto";
 import Senha from "../../components/Senha/Senha";
 import "./Register.css";
-import Botao from "../../components/Botoes/Botao";
 import { UserProvider, useUser } from "../../contexts/UserContext";
 import { useNavigate } from "react-router-dom";
 

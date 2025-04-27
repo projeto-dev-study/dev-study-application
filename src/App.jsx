@@ -19,7 +19,6 @@ function App() {
   return (
     <PhaseProvider>
       <Router>
-      <Navigation />
       <Routes>
         <Route path="/login" element={<Login />} />
         <Route path="/apresentation" element={<Apresentation />} />
