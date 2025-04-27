@@ -42,7 +42,7 @@ const ApresentationATV = () => {
 
       <div className="content">
         {activity.description.map((paragraph, index) => (
-          paragraph ? <p key={index}>{paragraph}</p> : <br key={index} />
+          paragraph ? <p key={index} className="text-atividade">{paragraph}</p> : <br key={index} />
         ))}
       </div>
 

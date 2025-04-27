@@ -69,7 +69,7 @@
     background-color: gray;
     color: black;
 }
-.voltar-quiz {
+.voltar-quiz-principal{
     position: fixed;
     top: 20px;       
     left: 20px;       
@@ -83,7 +83,7 @@
     background-color: transparent;
 }
 
-.seta-voltar-quiz{
+.seta-voltar-quiz-principal{
     position: fixed;
     top: 20px;
     left: 20px;
@@ -92,11 +92,10 @@
     cursor: pointer;
     transition: filter 0.3s ease;
     border-radius: 10px;
-
     
 }
 
-.seta-voltar-quiz:hover {
+.seta-voltar-quiz-princial:hover {
     filter: invert(100%) sepia(100%) hue-rotate(180deg);
 }
 

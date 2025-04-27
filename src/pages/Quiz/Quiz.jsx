@@ -69,8 +69,8 @@ const Quiz = () => {
 
     return (
         <div className='container-quiz'>
-            <button className='voltar-quiz' onClick={() => navigate(-1)}>
-                <img src="/assets/botaovoltar.svg" alt="voltar" />
+            <button className='voltar-quiz-principal' onClick={() => navigate(-1)}>
+                <img src="src/assets/botaovoltar.svg" alt="voltar" className='seta-voltar-quiz-principal' />
             </button>
 
             <h1 className='titulo-quiz'>Unidade {level}</h1>

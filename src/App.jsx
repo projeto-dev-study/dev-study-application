@@ -20,6 +20,7 @@ function App() {
     <PhaseProvider>
       <Router>
       <Routes>
+        <Route path="/" element={<Login />} />
         <Route path="/login" element={<Login />} />
         <Route path="/apresentation" element={<Apresentation />} />
         <Route path="/register" element={<Register />} />
