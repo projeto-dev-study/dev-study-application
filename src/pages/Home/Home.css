@@ -1,0 +1,110 @@
+.containerhome {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+    height: auto;
+}
+
+.cab {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mapa {
+    margin-left: 70px;
+    width: 80px;
+    height: 80px;
+    margin-right: 40px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+}
+.mapa:hover {
+    background-color: #7A7B7B;
+    color: white;
+    border-radius: 10px;
+}
+
+.titlehome {
+    background-color: #1F5F61;
+    padding: 15px 150px 15px 150px;
+    border-radius: 15px;
+    margin: 50px 30px 30px 30px;
+    color: white;
+    font-size: 35px;
+}
+
+.space {
+    margin-left: 200px;
+}
+
+.atividades1, .atividades2 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.btn1,.btn2,.btn3,.btn4, .btn5,.btn6, .btn7 {
+    background-color: #7A7B7B;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+}
+.btn1:hover,.btn2:hover,.btn3:hover,.btn4:hover, .btn5:hover,.btn6:hover, .btn7:hover {
+    background-color: rgb(73, 73, 73);
+    color: white;
+    border-radius: 10px;
+}
+.icon1,.icon2,.icon3,.icon4, .icon5,.icon6, .icon7 {
+    background-color: #7A7B7B;
+    margin: 25px;
+    
+}
+
+.btn1,.icon1 {
+    background-color: #0B8185;
+    cursor: pointer;
+}
+.voltar-quiz {
+    position: fixed;
+    top: 20px;       
+    left: 20px;       
+    font-weight: 400;
+    font-size: 10px; 
+    border-radius: 10px;
+    border: none;
+    width: 50px;
+    height: 50px;
+    padding: 5px 10px; 
+    background-color: transparent;
+}
+
+.seta-voltar-quiz{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: filter 0.3s ease;
+    border-radius: 10px;
+
+    
+}
+
+.seta-voltar-quiz:hover {
+    filter: invert(100%) sepia(100%) hue-rotate(180deg);
+}
+
+button.inactive {
+    background-color: #7A7B7B;
+    cursor: not-allowed;
+}
+
+button.active {
+    background-color: #0B8185;
+    cursor: pointer;
+}

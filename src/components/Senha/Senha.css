@@ -1,0 +1,17 @@
+.Senha {
+    width: 500px;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    font-size: 30px;
+    color: white;
+    background-color: #0B8185;
+    outline: none;
+    padding-left: 25px;
+}
+
+.Senha::placeholder {
+    color: white;
+    font-size: 30px;
+}

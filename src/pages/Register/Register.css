@@ -1,0 +1,28 @@
+.Register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-right: 35px;
+}
+
+.botao-cadastrar {
+    background-color: #1F5F61;
+    color: white;
+    border-radius: 15px;
+    width: 300px;
+    height: 66px;
+    font-size: 55px;
+    border: none;
+    cursor: pointer;
+}
+.botao-cadastrar:hover {
+    background-color: gray;
+    color: white;
+}
+.logo-tela-cadastro {
+    margin-top: 150px;
+    width: 300px;
+    height: 100px;
+}

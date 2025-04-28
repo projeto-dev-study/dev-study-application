@@ -1,0 +1,97 @@
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+    width: 90%;
+    margin-left: 55px;
+}
+
+.Logo {
+    margin-top: 20px;
+    width: 250px;  
+    height: 100px;  
+   
+}
+.resultado{
+    margin-top: 1px;
+    font-size: 80px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.insufficient{
+    margin-top: 25px;
+    font-size: 100px;
+    font-weight: 400;
+    color: black;
+    background-color: white;
+}
+.icone-sad{
+    width: 80px;  
+    height: 80px;  
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+.acertos{
+    font-size: 40px;
+    font-weight: 400;
+    color: #7A7B7B;
+    background-color: white;
+}
+.botao-repetir{
+    margin-top: 20px;
+    font-size: 35px;
+    font-weight: 400;
+    border-radius: 10;
+    width: 200px;
+    height: 40px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+
+}
+.botao-repetir:hover{
+    background-color: gray;
+    color: white;
+}
+.box{
+    background-color: white;     
+    padding: 20px;                
+    border-radius: 15px;          
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  
+    text-align: center;           
+    width: 600px;      
+    height: 450px;           
+    max-width: 80%;
+}
+.voltar-quiz {
+    position: fixed;
+    top: 20px;       
+    left: 20px;       
+    font-weight: 400;
+    font-size: 10px; 
+    border-radius: 10px;
+    border: none;
+    width: 50px;
+    height: 50px;
+    padding: 5px 10px; 
+    background-color: transparent;
+}
+
+.seta-voltar-quiz{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: filter 0.3s ease;
+    border-radius: 10px;
+}
+
+.seta-voltar-quiz:hover {
+    filter: invert(100%) sepia(100%) hue-rotate(180deg);
+}
+

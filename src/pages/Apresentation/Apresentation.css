@@ -1,0 +1,90 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.logo-apresentation {
+    width: 250px;
+    height: 100px;
+    margin-top: 50px;
+
+}
+
+.foto-perfil {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    gap: 30px;
+    align-items: center;
+    margin-right: 600px;
+ 
+}
+
+.cumprimento{
+    font-size: 90px;
+    font-weight: 40;
+    margin-top: 10px;
+    margin-right: 600px;
+}
+
+.boxtext {
+    background-color: white;     
+    padding: 20px;                
+    border-radius: 15px;          
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);            
+    width: 600px;      
+    height: 280px;           
+    max-width: 80%;
+    color: black;
+    font-size: 30px;
+    margin-left: 400px;
+    margin-top: -300px;
+  
+}
+
+.text-perfil {
+    margin-top: 5px;
+    font-weight: 400;
+    text-align: justify;
+    background-color: white;
+}
+
+.frase-conhecimento{
+    font-size: 32px;
+    display: flex;
+    padding-top: 30px;
+    justify-content: center;
+    
+}
+
+.botao-comecar{
+    background-color: #1F5F61;
+    color: white;
+    border-radius: 15px;
+    width: 300px;
+    height: 66px;
+    font-size: 55px;
+    border: none;
+    cursor: pointer;
+}
+.botao-comecar:hover{
+    background-color: gray;
+    color: white;
+}
+
+.seta-voltar-quiz{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: filter 0.3s ease;
+    border-radius: 10px;
+
+    
+}
+
+.seta-voltar-quiz:hover {
+    filter: invert(100%) sepia(100%) hue-rotate(180deg);
+}
