@@ -1,14 +1,19 @@
-import React from 'react'
-import './Senha.css'
+import React from 'react';
+import './Senha.css';
 
-const Senha = ({value, onChange}) => {
+const Senha = ({ value, onChange, error }) => {
   return (
-    <input type="password" 
-    placeholder="SENHA"
-    value={value}
-    onChange={onChange}
-    className='Senha'/>
-  )
-}
+    <div className="input-container">
+      <input 
+        type="password" 
+        placeholder="SENHA"
+        value={value}
+        onChange={onChange}
+        className={`Senha ${error ? 'error' : ''}`}
+      />
+      {error && <p className="error-message">{error}</p>}
+    </div>
+  );
+};
 
-export default Senha
+export default Senha;

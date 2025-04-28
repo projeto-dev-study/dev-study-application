@@ -19,20 +19,21 @@ function App() {
   return (
     <PhaseProvider>
       <Router>
-      <Routes>
-        <Route path="/login" element={<Login />} />
-        <Route path="/apresentation" element={<Apresentation />} />
-        <Route path="/register" element={<Register />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/homeii" element={<HomeII />} />
-        <Route path="/homeiii" element={<HomeIII />} />
-        <Route path="/quiz" element={<Quiz />} />
-        <Route path="/escolhasunidades" element={<EscolhasUnidades />} />
-        <Route path="/apresentationatv" element={<ApresentationATV />} />
-        <Route path="/resultcongratulation" element={<ResultCongratulation />} />
-        <Route path="/resultinsufficient" element={<ResultInsufficient />} />
-      </Routes>
-    </Router>
+        <Routes>
+          <Route path="/" element={<Login />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/apresentation" element={<Apresentation />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/homeii" element={<HomeII />} />
+          <Route path="/homeiii" element={<HomeIII />} />
+          <Route path="/quiz" element={<Quiz />} />
+          <Route path="/escolhasunidades" element={<EscolhasUnidades />} />
+          <Route path="/apresentationatv" element={<ApresentationATV />} />
+          <Route path="/resultcongratulation" element={<ResultCongratulation />} />
+          <Route path="/resultinsufficient" element={<ResultInsufficient />} />
+        </Routes>
+      </Router>
     </PhaseProvider>
   )
 }
