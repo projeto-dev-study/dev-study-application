@@ -14,18 +14,18 @@ const Login = () => {
     e.preventDefault();
     setError("");
 
-    // Validação básica
+  
     if (!email || !senha) {
       setError("Por favor, preencha todos os campos");
       return;
     }
 
-    // Verificar usuário no localStorage
+  
     const users = JSON.parse(localStorage.getItem("registeredUsers") || "[]");
     const user = users.find(u => u.email === email && u.senha === senha);
 
     if (user) {
-      // Salvar usuário na sessionStorage
+    
       sessionStorage.setItem("currentUser", JSON.stringify({
         name: user.name,
         email: user.email

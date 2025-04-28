@@ -11,13 +11,13 @@ const RegisterForm = () => {
   const [errors, setErrors] = useState({});
   const [isLoading, setIsLoading] = useState(false);
 
-  // Função para validar email
+ 
   const validateEmail = (email) => {
     const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return re.test(String(email).toLowerCase());
   };
 
-  // Função para validar formulário
+ 
   const validateForm = () => {
     const newErrors = {};
     
@@ -37,7 +37,7 @@ const RegisterForm = () => {
     return Object.keys(newErrors).length === 0;
   };
 
-  // Armazenar no localStorage
+ 
   const storeUserData = () => {
     const users = JSON.parse(localStorage.getItem("registeredUsers") || "[]");
     const userExists = users.some(u => u.email === user.email);
@@ -50,7 +50,7 @@ const RegisterForm = () => {
     users.push({
       name: user.name,
       email: user.email,
-      senha: user.senha, // Na prática, você deve armazenar hash da senha, não a senha em si
+      senha: user.senha, 
       createdAt: new Date().toISOString()
     });
     
