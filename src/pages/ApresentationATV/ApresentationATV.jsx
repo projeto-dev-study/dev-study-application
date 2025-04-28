@@ -26,16 +26,13 @@ const ApresentationATV = () => {
   return (
     <div className="container">
       <button className="voltar-quiz" onClick={() => navigate("/home")}>
-        <img
-          src="/assets/botaovoltar.svg"
-          alt="voltar"
-          className="seta-voltar-quiz"
+        <img src="src/assets/botaovoltar.svg" alt="voltar" className="seta-voltar-quiz"
         />
       </button>
 
       <div className="cabecalho">
         <img
-          src="/assets/logo-dev.svg"
+          src="src/assets/logo-dev.svg"
           alt="logo dev"
           className="logo-apresentation-atv"
         />
@@ -45,7 +42,7 @@ const ApresentationATV = () => {
 
       <div className="content">
         {activity.description.map((paragraph, index) => (
-          paragraph ? <p key={index}>{paragraph}</p> : <br key={index} />
+          paragraph ? <p key={index} className="text-atividade">{paragraph}</p> : <br key={index} />
         ))}
       </div>
 

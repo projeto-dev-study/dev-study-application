@@ -5,12 +5,12 @@
     justify-content: center;
     align-items: center;
 }
-
-.logo-apresentation-atv {
+.logo-apresentation-atv{
     width: 250px;
     height: 100px;
-    margin-top: 30px;
-    margin-right: 60px;
+    margin-top: 40px;
+    margin-left: 650px;
+    
 }
 
 .cabecalho {
@@ -29,23 +29,24 @@
     font-size: 60px;
 }
 
-.content {
+.content{
     display: flex;
     flex-direction: column;
     justify-content: center;
     font-size: 20px;
-    color: white;
+    color: black;
     background-color: white;
     border-radius: 15px;
-    width: 50%;
-    height: auto;
+    width: 600px;
+    height: 450px;
+    max-width: 80%;
     margin-top: 15px;
-}
+    padding: 20px;
 
-.textcontent {
+}
+.text-atividade{
     background-color: white;
-    margin: 20px;
-    padding: 10px;
+    color: black;
 }
 
 .ponto {
@@ -92,7 +93,7 @@
     height: 50px;
     margin-left: 20px;
     border: none;
-    background-color: transparent;
+    background-color: transparent       ;
     padding: 0;
     display: flex;
     justify-content: center;
