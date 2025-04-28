@@ -15,7 +15,7 @@ const ResultCongratulation = () => {
     return (
         <div className='image-container'>
             <button className='voltar-quiz' onClick={() => navigate('/')}>
-                <img src="src/assets/botaovoltar.svg" alt="voltar" className='seta-voltar-quiz' />
+                <img src="src/assets/botaovoltar.svg" alt="voltar" className='seta-voltar-quiz' onClick={() => navigate(-1)}/>
             </button>
 
             <img src="src/assets/logo-dev.svg" alt="logo dev" className='Logo' />
