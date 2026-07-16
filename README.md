@@ -99,13 +99,29 @@ Acesse `http://localhost:5173` no seu navegador para ver o projeto rodando.
 
 ---
 
-# 👨‍💻 Autor
+# 👨‍💻 Autores
 
 ## João Edson
 
 Desenvolvedor Front-End | React • TypeScript • Spring Boot
 
 [LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-edson-b88018333/) | [GitHub](https://github.com/edsonplz) | [Portfólio](https://portfolio-edson.onrender.com/)
+
+---
+
+## Clodomir Alves
+
+Desenvolvedor de Software | JavaScript | ObjectScript | SQL | Html | CSS
+
+[LinkedIn](https://www.linkedin.com/in/clodomiralves/) | [GitHub](https://github.com/clodomiralves)
+
+---
+
+## Leandro Marques
+
+Analista de Dados | Power BI | SQL | Sistemas de Informação
+
+[LinkedIn](https://www.linkedin.com/in/leandro-desenvolvedor/)
 
 ---
 
